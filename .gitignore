@@ -1,0 +1,38 @@
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Java build output
+# =====================
+*.class
+out/
+bin/
+
+# =====================
+# IntelliJ IDEA
+# =====================
+.idea/
+*.iml
+
+# =====================
+# VS Code
+# (chỉ ignore config editor, KHÔNG ignore code)
+# =====================
+.vscode/*
+!.vscode/extensions.json
+
+# =====================
+# Logs / temp
+# =====================
+*.log
+*.tmp
+
+# =====================
+# Node / tools (nếu sau này có dùng)
+# =====================
+node_modules/
+npm-debug.log*
+yarn-error.log*
