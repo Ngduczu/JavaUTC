@@ -1,0 +1,75 @@
+PACKAGE: oop.encapsulation
+    Tạo class Person
+    Field private: id, name, age
+    Constructor đầy đủ tham số
+    Getter / Setter
+    Validate age >= 0
+
+PACKAGE: oop.inheritance
+    Tạo class Student extends Person
+    Thêm field studentCode
+    Gọi constructor super
+    Override toString()
+
+PACKAGE: oop.polymorphism
+    Tạo method getRole() trong Person
+    Override getRole() trong Student
+    Test polymorphism bằng Person p = new Student(...)
+
+PACKAGE: oop.abstraction
+    Chuyển Person thành abstract class
+    Tạo abstract method calculateSalary()
+    PACKAGE: interfaceandabstract.interface
+    Tạo interface Payable
+    Khai báo method calculateSalary()
+    Student implements Payable
+
+PACKAGE: interfaceandabstract.abstractclass
+    Tạo abstract class Employee extends Person
+    Implement một phần logic calculateSalary()
+    Để subclass hoàn thiện phần còn lại
+
+PACKAGE: interfaceandabstract.implement
+    Tạo class Teacher extends Employee
+    Override toàn bộ abstract method
+    Test bằng Payable reference
+
+PACKAGE: objectandequals
+    Override equals() và hashCode() trong Person
+    So sánh Person theo id
+    Override toString()
+
+PACKAGE: collectionframework.list
+    Tạo List<Person>
+    Thêm, sửa, xóa Person
+    In danh sách ra console
+
+PACKAGE: collectionframework.set
+    Tạo HashSet<Person>
+    Thêm nhiều Person trùng id
+    Quan sát hành vi equals/hashCode
+
+PACKAGE: collectionframework.map
+    Tạo Map<String, Person>
+    Key là id
+    Tìm, xóa Person theo id
+
+PACKAGE: generics
+    Tạo class generic Repository<T>
+    Method add(T item)
+    Method remove(T item)
+    Method findAll()
+
+PACKAGE: exceptionhandling
+    Tạo InvalidAgeException extends RuntimeException
+    Throw exception khi age < 0
+    Bắt exception trong main
+
+PACKAGE: lambdaandstream
+    Filter danh sách Person theo age > 18
+    Map Person sang name
+    ForEach in ra console
+
+PACKAGE: fileanddatetime
+    Ghi danh sách Person ra file text
+    Lưu thời gian tạo file bằng LocalDateTime
