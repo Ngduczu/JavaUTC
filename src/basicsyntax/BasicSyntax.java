@@ -12,7 +12,6 @@ public class BasicSyntax {
         double b = sc.nextDouble();
         sc.nextLine();
         String s = sc.nextLine();
-        final double PI = 3.14159265;
 
         System.out.print("a = " + a + "\n");
         System.out.println("b = " + b);

@@ -19,7 +19,8 @@ PACKAGE: oop.polymorphism
 PACKAGE: oop.abstraction
     Chuyển Person thành abstract class
     Tạo abstract method calculateSalary()
-    PACKAGE: interfaceandabstract.interface
+
+PACKAGE: interfaceandabstract.interface
     Tạo interface Payable
     Khai báo method calculateSalary()
     Student implements Payable
